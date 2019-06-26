@@ -7,7 +7,7 @@ const fs = require('fs');
 // });
 
 const content = Buffer.from('This is a demo file wrote by fs!');
-fs.writeFile('./demo.txt', content, (err) => {
+fs.writeFile('../file/demo.txt', content, (err) => {
   if (err) throw err;
   console.log('done!');
 });
